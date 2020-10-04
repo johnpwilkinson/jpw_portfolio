@@ -1,7 +1,7 @@
 import React from "react"
 import Intent from "./link"
 import { FaFilePdf as PDF } from "react-icons/fa"
-import resume from '../../../static/JohnWilkinsonResume.pdf'
+import resume from '../../public/static/JohnWilkinsonResume.pdf'
 
 export default function Appbar() {
   return (
