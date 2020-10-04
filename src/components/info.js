@@ -49,6 +49,7 @@ export default function info() {
       <div className="text-muted mx-5 my-4 h3 text-justify info">
         <div className="h1 code mt-4 mb-3">
           <span style={{ color: "white" }}>"skills" {":"}</span>
+          {"{"}
         </div>
         <span id="sub-title">
           <span id="sub-left">
@@ -57,6 +58,9 @@ export default function info() {
           <span id="sub-right">
             ["Vanilla JavaScript", "DOM manipulation", "Scope && Closure",
             "Classes && Objects", "Sync / Async", "Types", "$JQuery"]{" "}
+          </span>
+          <span id="comma">
+            <span>{","}</span>{" "}
           </span>
           <div class="clear-both"></div>
         </span>
@@ -68,6 +72,9 @@ export default function info() {
             ["Python3", "Built in Libraries", "Virtual Environments", "Web
             Scraping", "Async", "File Manipulation", "System Process
             Interaction"]{" "}
+          </span>
+          <span id="comma">
+            <span>{","}</span>{" "}
           </span>
           <div class="clear-both"></div>
         </span>
@@ -81,6 +88,9 @@ export default function info() {
             SalesForce implementations", "Leverage the power of the platform to
             aggregate data into actionable intelligence", "Lightning Web Components"]{" "}
           </span>
+          <span id="comma">
+            <span>{","}</span>{" "}
+          </span>
           <div class="clear-both"></div>
         </span>
         <span id="sub-title">
@@ -90,6 +100,9 @@ export default function info() {
           <span id="sub-right">
             ["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint"]{" "}
           </span>
+          <span id="comma">
+            <span>{","}</span>{" "}
+          </span>
           <div class="clear-both"></div>
         </span>
         <span id="sub-title">
@@ -98,6 +111,9 @@ export default function info() {
           </span>
           <span id="sub-right">
             ["HTML", "CSS", "ReactJs", "Styling Libraries: Bootstrap, Material, Gatsby", "Redux"]{" "}
+          </span>
+          <span id="comma">
+            <span>{","}</span>{" "}
           </span>
           <div class="clear-both"></div>
         </span>
@@ -110,6 +126,7 @@ export default function info() {
           </span>
           <div class="clear-both"></div>
         </span>
+        {"}"}
       </div>
 
       <div className="h1 code mt-2 mb-3">{"}"}</div>

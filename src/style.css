@@ -73,11 +73,18 @@ body {
 #sub-right {
   float: left;
   font-size: 0.55em;
-  width: 74%;
+  width: 64%;
   height: 100%;
   padding-top: 25px;
   font-family: "Source Code Pro", monospace;
 
+}
+#comma {
+  float: left; 
+  width: 10%;
+  font-size: 2em;
+  padding-top: 25px;
+  padding-right: 50px
 }
 .clear-both {
   clear: both;
@@ -99,4 +106,9 @@ body {
 .sub-title {
   overflow: hidden;
   width: 500px;
+}
+
+.pdf {
+  font-size: 1.5em;
+
 }
