@@ -1,10 +1,14 @@
 import React from "react"
 import Intent from "./link"
 import { FaFilePdf as PDF } from "react-icons/fa"
+import  Container  from "react-bootstrap/Container"
 
 
 export default function Appbar() {
+
   return (
+    <div>
+    <Container fluid />
     <div className="container my-5">
       <ul className="nav justify-content-center">
         <li className="nav-item mx-4">
@@ -21,6 +25,8 @@ export default function Appbar() {
 
         </li>
       </ul>
+    </div>
+    <Container />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from "react"
+import  Container  from "react-bootstrap/Container"
 
 import {
   FaTwitter as Twitter,
@@ -15,6 +16,7 @@ import {
 
 export default function info() {
   return (
+    <Container fluid>
     <div className="container">
       <div className="my-5"></div>
       <div className="display-3" style={{ color: "#FF8A00" }}>
@@ -201,5 +203,6 @@ export default function info() {
         </a>
       </div>
     </div>
+    </Container>
   )
 }

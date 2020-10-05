@@ -3,6 +3,7 @@ import "../style.css"
 import Appbar from "../components/appbar"
 import Info from "../components/info"
 import { Helmet } from "react-helmet"
+import { Container } from "bootstrap"
 
 function index() {
   return (
