@@ -16,6 +16,10 @@ export default function Appbar() {
         <li className="nav-item mx-4">
           <a href="https://drive.google.com/file/d/1ua4vOGDjcfMx-D6OdKoknYxd72NGojxD/view?usp=sharing" className="nav-link" ><span className="pdf"><PDF />Download Resume</span></a>
         </li>
+        <li className="nav-item mx-4">
+        <img src="https://drm--c.na114.content.force.com/servlet/servlet.ImageServer?id=0153k00000AH6hb&oid=00DF0000000gZsu&lastMod=1571903578000" className="sf"></img>
+
+        </li>
       </ul>
     </div>
   )

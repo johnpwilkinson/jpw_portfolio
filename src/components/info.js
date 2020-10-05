@@ -10,7 +10,7 @@ import {
   FaPython as PY,
   FaMicrosoft as MS,
   FaCode as FE,
-  FaDatabase as BE
+  FaDatabase as BE,
 } from "react-icons/fa"
 
 export default function info() {
@@ -26,24 +26,30 @@ export default function info() {
         <div className="h1 code mt-4 mb-3">
           <span style={{ color: "white" }}>"about" {":"}</span>
         </div>
-        <span className="code">"A Passionate FullStack Developer, BlockChain Enthusiast, Ethereum Geek
-        and SalesForce ecoSystem Builder. I am a life long learner, constantly
-        curious, and infinitely coachable."</span>
+        <span className="code">
+          "A Passionate FullStack Developer, BlockChain Enthusiast, Ethereum
+          Geek and SalesForce ecoSystem Builder. I am a life long learner,
+          constantly curious, and infinitely coachable."
+        </span>
       </div>
       <div className="text-muted mx-5 my-4 h3 text-justify info">
         <div className="h1 code mt-4 mb-3">
           <span style={{ color: "white" }}>"experience" {":"}</span>
-        </div><span className="code">
-        ["Software Engineering Coach / TA @ Kenzie Academy", "Student Committee
-        Member @ Kenzie Academy", "Owner @ HealUrSelf LLC", "Sales @ Wireless
-        and Technology"]</span>
+        </div>
+        <span className="code">
+          ["Software Engineering Coach / TA @ Kenzie Academy", "Student
+          Committee Member @ Kenzie Academy", "Owner @ HealUrSelf LLC", "Sales @
+          Wireless and Technology"]
+        </span>
       </div>
       <div className="text-muted mx-5 my-4 h3 text-justify info">
         <div className="h1 code mt-4 mb-3">
           <span style={{ color: "white" }}>"education" {":"}</span>
-        </div><span className="code">
-        ["Full Stack Software Engineering @ Kenzie Academy / Butler University",
-        "Sales Force Admin Course @ PepUp Tech", "A.S. in Accounting @ IvyTech"]
+        </div>
+        <span className="code">
+          ["Full Stack Software Engineering @ Kenzie Academy / Butler
+          University", "Sales Force Admin Course @ PepUp Tech", "A.S. in
+          Accounting @ IvyTech"]
         </span>
       </div>
       <div className="text-muted mx-5 my-4 h3 text-justify info">
@@ -86,7 +92,8 @@ export default function info() {
             ["Setup, Deploy, Manage, and Administrate Professional SalesForce
             CRM solutions", "Translate employees needs into tangible custom
             SalesForce implementations", "Leverage the power of the platform to
-            aggregate data into actionable intelligence", "Lightning Web Components"]{" "}
+            aggregate data into actionable intelligence", "Lightning Web
+            Components"]{" "}
           </span>
           <span id="comma">
             <span>{","}</span>{" "}
@@ -110,7 +117,8 @@ export default function info() {
             <FE /> :{" "}
           </span>
           <span id="sub-right">
-            ["HTML", "CSS", "ReactJs", "Styling Libraries: Bootstrap, Material, Gatsby", "Redux"]{" "}
+            ["HTML", "CSS", "ReactJs", "Styling Libraries: Bootstrap, Material,
+            Gatsby", "Redux"]{" "}
           </span>
           <span id="comma">
             <span>{","}</span>{" "}
@@ -122,10 +130,39 @@ export default function info() {
             <BE /> :{" "}
           </span>
           <span id="sub-right">
-            ["NodeJS", "MongoDB", PostgreSQL", "Django Python Framework", "RESTful API's", "Google FireBase", "SwaggerUI"]{" "}
+            ["NodeJS", "MongoDB", PostgreSQL", "Django Python Framework",
+            "RESTful API's", "Google FireBase", "SwaggerUI"]{" "}
           </span>
           <div class="clear-both"></div>
         </span>
+        {"}"}
+      </div>
+      <div className="text-muted mx-5 my-4 h3 text-justify info">
+        <div className="h1 code mt-4 mb-3">
+          <span style={{ color: "white" }}>"Certifications" {":"}</span>
+          {"{"}
+        </div>
+        <span id="sub-title">
+          <span id="sub-left">
+            <SalesForce /> :{" "}
+          </span>
+          <span id="sub-right">"Certified SalesFroce Admin" </span>
+          <span id="comma">
+            <span>{","}</span>{" "}
+          </span>
+          <div class="clear-both"></div>
+        </span>
+        <span id="sub-title">
+          <span id="sub-left">
+            <FE /> :{" "}
+          </span>
+          <span id="sub-right">
+            "Full Stack Software Engineer from Kenzie Academy && Butler
+            University"{" "}
+          </span>{" "}
+          <div class="clear-both"></div>
+        </span>
+
         {"}"}
       </div>
 
