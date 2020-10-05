@@ -1,8 +1,7 @@
 import React from "react"
 import Intent from "./link"
 import { FaFilePdf as PDF } from "react-icons/fa"
-import { withPrefix } from 'gatsby'
-// import resume from '.JohnWilkinsonResume.pdf'
+
 
 export default function Appbar() {
   return (
@@ -15,7 +14,7 @@ export default function Appbar() {
           <Intent to="/projects"><span className="pdf">Projects</span></Intent>
         </li>
         <li className="nav-item mx-4">
-          <a href={withPrefix('/JohnWilkinsonResume.pdf')} className="nav-link" ><span className="pdf"><PDF />Download Resume</span></a>
+          <a href="https://drive.google.com/file/d/1ua4vOGDjcfMx-D6OdKoknYxd72NGojxD/view?usp=sharing" className="nav-link" ><span className="pdf"><PDF />Download Resume</span></a>
         </li>
       </ul>
     </div>
