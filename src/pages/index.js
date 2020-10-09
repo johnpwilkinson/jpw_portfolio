@@ -1,14 +1,14 @@
 import React from "react"
 import "../style.css"
 import Appbar from "../components/appbar"
-import Info from "../components/info"
+import Info2 from "../components/info2"
 import { Helmet } from "react-helmet"
 
 function index() {
   return (
     <div>
       <Appbar />
-      <Info />
+      <Info2 />
       <Helmet>
         <meta charSet="utf-8" />
         <title>Home | John</title>
