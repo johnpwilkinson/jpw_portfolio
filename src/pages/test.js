@@ -24,7 +24,7 @@ export default function test() {
     <Info2 />
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Projects | Sumanth</title>
+      <title>Projects | John</title>
     </Helmet>
     </div>
   )}
