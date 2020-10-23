@@ -126,7 +126,7 @@ export default function Info2() {
             :
           </Col>
           <Col className="col-8 desc_object">
-            ["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint"]{" "}
+            ["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint", "Microsoft Outlook"]{" "}
           </Col>
           <Col className="col-1 comma">,</Col>
         </Row>
