@@ -82,7 +82,14 @@ body {
 .leftpush {
   padding-left: 2em;
 }
-
+@media (max-width: 575.98px) { 
+  .leftpush {
+    padding-left: 0em;
+  }
+  .col {
+    padding: 0;
+  }
+}
 .comma {
   font-size: 3vw;
   display: flex;
