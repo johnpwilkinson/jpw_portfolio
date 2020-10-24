@@ -3,6 +3,7 @@ import "../style.css"
 import Appbar from "../components/appbar"
 import Info2 from "../components/info2"
 import { Helmet } from "react-helmet"
+import Footer from "../components/footer"
 
 function index() {
   return (

@@ -2,6 +2,8 @@ import React from "react"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import KeyValuePair from "./keyValuePair"
+import Footer from "./footer"
 import {
   FaTwitter as Twitter,
   FaGithub as Github,
@@ -16,6 +18,8 @@ import {
 } from "react-icons/fa"
 
 export default function Info2() {
+  let blazer =
+    '<a href="https://trailblazer.me/id/jwilkinsondev">trailblazer.me</a>'
   return (
     <Container>
       <div className="my-5"></div>
@@ -83,75 +87,31 @@ export default function Info2() {
           <span className="t">{"{"}</span>
         </Row>
         <div className="x">
-        <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
-          <Col className="col-2 logo">
-            <JS />
-          </Col>
-          <Col className="col-1 colon">:</Col>
-          <Col className="col-8 desc_object" id="bb">
-            ["Vanilla JavaScript", "DOM manipulation", "Scope && Closure",
-            "Classes && Objects", "Sync / Async", "Types", "$JQuery"]{" "}
-          </Col>
-          <Col className="col-1 comma">,</Col>
-        </Row>
-        <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
-          <Col className="col-2 logo">
-            <PY />
-          </Col>
-          <Col className="col-1 colon">:</Col>
-          <Col className="col-8 desc_object" id="bb">
-            ["Python3", "Built in Libraries", "Virtual Environments", "Web
-            Scraping", "Async", "File Manipulation", "System Process
-            Interaction"]{" "}
-          </Col>
-          <Col className="col-1 comma">,</Col>
-        </Row>
-        <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
-          <Col className="col-2 logo">
-            <SalesForce />
-          </Col>
-          <Col className="col-1 colon">:</Col>
-          <Col className="col-8 desc_object" id="bb">
-            ["Setup, Deploy, Manage, Maintain Professional SalesForce CRM
-            solutions", "Translate employees needs into custom SalesForce
-            implementations", "Leverage the power of the platform to aggregate
-            data into actionable intelligence", "Lightning Web Components"]{" "}
-          </Col>
-          <Col className="col-1 comma">,</Col>
-        </Row>
-        <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
-          <Col className="col-2 logo">
-            <MS />
-          </Col>
-          <Col className="col-1 colon">:</Col>
-          <Col className="col-8 desc_object" id="bb">
-            ["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint",
-            "Microsoft Outlook"]{" "}
-          </Col>
-          <Col className="col-1 comma">,</Col>
-        </Row>
-        <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
-          <Col className="col-2 logo">
-            <FE />
-          </Col>
-          <Col className="col-1 colon">:</Col>
-          <Col className="col-8 desc_object" id="bb">
-            ["HTML", "CSS", "ReactJs", "Styling Libraries: Bootstrap, Material,
-            Gatsby", "Redux"]{" "}
-          </Col>
-          <Col className="col-1 comma">,</Col>
-        </Row>
-        <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
-          <Col className="col-2 logo">
-            <BE />
-          </Col>
-          <Col className="col-1 colon">:</Col>
-          <Col className="col-8 desc_object" id="bb">
-            ["NodeJS", "MongoDB", PostgreSQL", "Django Python Framework",
-            "RESTful API's", "Google FireBase", "SwaggerUI"]{" "}
-          </Col>
-          <Col className="col-1 comma">,</Col>
-        </Row>
+          <KeyValuePair
+            logo={<JS />}
+            value={`["Vanilla JavaScript", "DOM manipulation", "Scope && Closure",
+            "Classes && Objects", "Sync / Async", "Types", "$JQuery"]`}
+          />
+          <KeyValuePair
+            logo={<PY />}
+            value={`["Python3", "Built in Libraries", "Virtual Environments", "Web Scraping", "Async", "File Manipulation", "System Process Interaction"]`}
+          />
+          <KeyValuePair
+            logo={<SalesForce />}
+            value={`["Setup, Deploy, Manage, Maintain Professional SalesForce CRM solutions", "Translate employees needs into custom SalesForce implementations", "Leverage the power of the platform to aggregate data into actionable intelligence", "Lightning Web Components"]`}
+          />
+          <KeyValuePair
+            logo={<MS />}
+            value={`["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint", "Microsoft Outlook"]`}
+          />
+          <KeyValuePair
+            logo={<FE />}
+            value={`["HTML", "CSS", "ReactJs", "Styling Libraries: Bootstrap, Material, Gatsby", "Redux"]`}
+          />
+          <KeyValuePair
+            logo={<BE />}
+            value={`["NodeJS", "MongoDB", "PostgreSQL", "Django Python Framework", "RESTful API's", "Google FireBase", "SwaggerUI"]`}
+          />
         </div>
         <Row className="h1 code mt-4 mb-3">
           <span className="t">{"}"}</span>
@@ -164,80 +124,35 @@ export default function Info2() {
           </span>
           <span className="t">{"{"}</span>
         </Row>
+        <KeyValuePair
+          logo={<FE />}
+          value={`"Front End, Back End, and Full Stack Software Engineer Certification from Kenzie Academy && Butler University"`}
+        />
+
         <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
           <Col className="col-2 logo">
             <SalesForce />
           </Col>
           <Col className="col-1 colon">:</Col>
           <Col className="col-8 desc_object" id="bb">
-          <span className="">"Sales Force Certified Adminitrator | ID=21319067 | Certified on 7/2020 | <a href="https://trailblazer.me/id/jwilkinsondev">https://trailblazer.me/id/jwilkinsondev</a>"{" "}</span>
+            <span className="">
+              ["Sales Force Certified Adminitrator", "ID=21319067", "Certified
+              on 7/2020", "
+              <a href="https://trailblazer.me/id/jwilkinsondev">
+                trailblazer.me
+              </a>
+              "]{" "}
+            </span>
           </Col>
           <Col className="col-1 comma"> ,</Col>
         </Row>
-        <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
-          <Col className="col-2 logo">
-            <FE />
-          </Col>
-          <Col className="col-1 colon">:</Col>
-          <Col className="col-8 desc_object" id="bb">
-            "Front End, Back End, and Full Stack Software Engineer Certification from Kenzie Academy && Butler
-            University"{" "}
-          </Col>
-          <Col className="col-1 comma">,</Col>
-          <Row className="h1 code mt-4 mb-3">
-        <span className="t">{"}"}</span>
-      </Row>
+        <Row className="h1 code mt-4 mb-3">
+          <span className="t">{"}"}</span>
         </Row>
       </Row>
-      
+
       <div className="h1 code mt-4 mb-3">{"}"}</div>
-      <Row className="h1 mt-3 k text-center">
-        <Col>
-          {" "}
-          <a
-            target="_blank"
-            className=" icon logo-footer "
-            href="https://twitter.com/jpw_dev"
-          >
-            <Twitter />
-          </a>
-        </Col>
-        <Col>
-          <a
-            target="_blank"
-            className=" icon logo-footer"
-            href="https://trailblazer.me/id?lang=en_US&_ga=2.177593575.351651615.1601832279-206589562.1601832279"
-          >
-            <SalesForce />
-          </a>
-        </Col>
-        <Col>
-          <a
-            target="_blank"
-            className=" icon logo-footer"
-            href="https://github.com/johnpwilkinson"
-          >
-            <Github />
-          </a>
-        </Col>
-        <Col>
-          <a
-            target="_blank"
-            className=" icon logo-footer"
-            href="https://www.linkedin.com/in/john-wilkinson-dev/"
-          >
-            <LinkedIn />
-          </a>
-        </Col>
-        <Col >
-          <a
-            className=" icon logo-footer"
-            href="mailto://jpw.jsdev@gmail.com"
-          >
-            <Mail />
-          </a>
-        </Col>
-      </Row>
+      <Footer />
     </Container>
   )
 }
