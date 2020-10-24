@@ -30,10 +30,10 @@ export default function Info2() {
       </Row>
       <Row>
         <div className="text-muted mx-5 my-4 h3 text-justify info">
-          <div className="h1 code mt-4 mb-3">
-            <span style={{ color: "white" }}>"about" {":"}</span>
+          <div className=" code mt-4 mb-3">
+            <span style={{ color: "white" }}><h1>"about" {":"}</h1></span>
           </div>
-          <span className="code">
+          <span className="t">
             "A Passionate FullStack Developer, BlockChain Enthusiast, Ethereum
             Geek and SalesForce ecoSystem Builder. I am a life long learner,
             constantly curious, and infinitely coachable."
@@ -42,10 +42,12 @@ export default function Info2() {
       </Row>
       <Row>
         <div className="text-muted mx-5 my-4 h3 text-justify info">
-          <div className="h1 code mt-4 mb-3">
-            <span style={{ color: "white" }}>"experience" {":"}</span>
+          <div className=" code mt-4 mb-3">
+            <span style={{ color: "white" }}>
+              <h1>"experience" {":"}</h1>
+            </span>
           </div>
-          <span className="code">
+          <span className="t">
             ["Software Engineering Coach / TA @ Kenzie Academy", "Student
             Committee Member @ Kenzie Academy", "Owner @ HealUrSelf LLC", "Sales
             @ Wireless and Technology"]
@@ -55,47 +57,40 @@ export default function Info2() {
       <Row>
         <div className="text-muted mx-5 my-4 h3 text-justify info">
           <div className="h1 code mt-4 mb-3">
-            <span style={{ color: "white" }}>"education" {":"}</span>
+            <span style={{ color: "white" }}><h1>"education" {":"}</h1></span>
           </div>
           <Row>
-          <Col className="col-11 ">
-          <span className="code">
-            ["Full Stack Software Engineering @ Kenzie Academy / Butler
-            University", "Sales Force Admin Course @ PepUp Tech", "A.S. in
-            Accounting @ IvyTech"],
-          </span>
-          </Col>
-          <Col className="col-1 ">
-              ,
-          </Col>
+            <Col className="col-11 ">
+              <span className="t">
+                ["Full Stack Software Engineering @ Kenzie Academy / Butler
+                University", "Sales Force Admin Course @ PepUp Tech", "A.S. in
+                Accounting @ IvyTech"],
+              </span>
+            </Col>
+            <Col className="col-1 ">,</Col>
           </Row>
         </div>
       </Row>
       <Row className="text-muted mx-5 my-4 h3 text-justify info">
         <Row className="h1 code mt-4 mb-3">
-          <span style={{ color: "white" }}>"skills" {":"}</span>
-          {"{"}
+          <span style={{ color: "white" }}><h1>"skills" {":"}</h1></span>
         </Row>
-        <Row  className="row-cols-4 h1 code mt-4 mb-3 leftpush">
-          <Col  className="col-2 logo">
+        <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
+          <Col className="col-2 logo">
             <JS />
           </Col>
-          <Col  className="col-1 colon">
-            :
-          </Col>
-          <Col  className="col-8 desc_object">
+          <Col className="col-1 colon">:</Col>
+          <Col className="col-8 desc_object">
             ["Vanilla JavaScript", "DOM manipulation", "Scope && Closure",
             "Classes && Objects", "Sync / Async", "Types", "$JQuery"]{" "}
           </Col>
-          <Col  className="col-1 comma">,</Col>
+          <Col className="col-1 comma">,</Col>
         </Row>
         <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
           <Col className="col-2 logo">
             <PY />
           </Col>
-          <Col className="col-1 colon">
-            :
-          </Col>
+          <Col className="col-1 colon">:</Col>
           <Col className="col-8 desc_object">
             ["Python3", "Built in Libraries", "Virtual Environments", "Web
             Scraping", "Async", "File Manipulation", "System Process
@@ -107,9 +102,7 @@ export default function Info2() {
           <Col className="col-2 logo">
             <SalesForce />
           </Col>
-          <Col className="col-1 colon">
-            :
-          </Col>
+          <Col className="col-1 colon">:</Col>
           <Col className="col-8 desc_object">
             ["Setup, Deploy, Manage, Maintain Professional SalesForce CRM
             solutions", "Translate employees needs into custom SalesForce
@@ -122,11 +115,10 @@ export default function Info2() {
           <Col className="col-2 logo">
             <MS />
           </Col>
-          <Col className="col-1 colon">
-            :
-          </Col>
+          <Col className="col-1 colon">:</Col>
           <Col className="col-8 desc_object">
-            ["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint", "Microsoft Outlook"]{" "}
+            ["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint",
+            "Microsoft Outlook"]{" "}
           </Col>
           <Col className="col-1 comma">,</Col>
         </Row>
@@ -134,9 +126,7 @@ export default function Info2() {
           <Col className="col-2 logo">
             <FE />
           </Col>
-          <Col className="col-1 colon">
-            :
-          </Col>
+          <Col className="col-1 colon">:</Col>
           <Col className="col-8 desc_object">
             ["HTML", "CSS", "ReactJs", "Styling Libraries: Bootstrap, Material,
             Gatsby", "Redux"]{" "}
@@ -147,9 +137,7 @@ export default function Info2() {
           <Col className="col-2 logo">
             <BE />
           </Col>
-          <Col className="col-1 colon">
-            :
-          </Col>
+          <Col className="col-1 colon">:</Col>
           <Col className="col-8 desc_object">
             ["NodeJS", "MongoDB", PostgreSQL", "Django Python Framework",
             "RESTful API's", "Google FireBase", "SwaggerUI"]{" "}
@@ -158,40 +146,8 @@ export default function Info2() {
         </Row>
         <Row className="h1 code mt-4 mb-3">{"}"}</Row>
       </Row>
-      <Row className="text-muted mx-5 my-4 h3 text-justify info">
-        <Row className="h1 code mt-4 mb-3">
-          <span style={{ color: "white" }}>"certifications" {":"}</span>
-          {"{"}
-        </Row>
-        <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
-          <Col className="col-2 logo">
-            <SalesForce />
-          </Col>
-          <Col className="col-1 colon">
-           :
-          </Col>
-          <Col className="col-8 desc_object">
-            "Sales Force Certified Adminitrator | ID=21319067 | 7/2020"{" "}
-          </Col>
-          <Col className="col-1 comma"> ,</Col>
-        </Row>
-        <Row className="row-cols-4 h1 code mt-4 mb-3 leftpush">
-          <Col className="col-2 logo">
-            <FE />
-          </Col>
-          <Col className="col-1 colon">
-            :
-          </Col>
-          <Col className="col-8 desc_object">
-            "Full Stack Software Engineer from Kenzie Academy && Butler
-            University"{" "}
-          </Col>
-          <Col className="col-1 comma">,</Col>
-        </Row>
-        <Row className="h1 code mt-4 mb-3">{"}"}</Row>
-      </Row>
       <div className="h1 code mt-4 mb-3">{"}"}</div>
-      <Row  className="h1 mt-5">
+      <Row className="h1 mt-5">
         <Col>
           {" "}
           <a

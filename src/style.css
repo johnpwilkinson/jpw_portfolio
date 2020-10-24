@@ -82,19 +82,28 @@ body {
 .leftpush {
   padding-left: 2em;
 }
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
   .leftpush {
     padding-left: 0em;
   }
   .col {
     padding: 0;
   }
+  h1 {
+    font-size: 1.75rem;
+  }
+  .t {
+    font-size: 1rem;
+  }
+}
+
+.t {
+  font-family: "Source Code Pro", monospace;
 }
 .comma {
   font-size: 3vw;
   display: flex;
   margin-top: auto;
-
 }
 .desc_object {
   font-size: 1.5vw;
@@ -116,14 +125,13 @@ body {
   height: 100%;
   padding-top: 25px;
   font-family: "Source Code Pro", monospace;
-
 }
 #comma {
-  float: left; 
+  float: left;
   width: 10%;
   font-size: 2em;
   padding-top: 25px;
-  padding-right: 50px
+  padding-right: 50px;
 }
 .clear-both {
   clear: both;
@@ -145,17 +153,16 @@ body {
 .sub-title {
   overflow: hidden;
   width: 500px;
-  
 }
 
 .pdf {
   font-size: 1.5em;
-  width: 100%
+  width: 100%;
 }
 
 .sf {
   height: 4em;
-  width: 8em
+  width: 8em;
 }
 
 .flex-container {
@@ -165,23 +172,22 @@ body {
   justify-content: flex-start;
   align-content: stretch;
   align-items: flex-start;
-  }
+}
 
 .flex-item:nth-child(1) {
   order: 0;
   flex: 10 1 auto;
   align-self: auto;
-  }
+}
 
 .flex-item:nth-child(2) {
   order: 0;
   flex: 50 1 auto;
   align-self: auto;
-  }
+}
 
 .flex-item:nth-child(3) {
   order: 0;
   flex: 0 1 auto;
   align-self: auto;
-  }
-
+}
