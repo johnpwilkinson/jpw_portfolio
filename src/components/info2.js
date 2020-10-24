@@ -191,12 +191,12 @@ export default function Info2() {
       </Row>
       
       <div className="h1 code mt-4 mb-3">{"}"}</div>
-      <Row className="h1 mt-3 k">
+      <Row className="h1 mt-3 k text-center">
         <Col>
           {" "}
           <a
             target="_blank"
-            className=" icon logo-footer"
+            className=" icon logo-footer "
             href="https://twitter.com/jpw_dev"
           >
             <Twitter />
@@ -229,7 +229,7 @@ export default function Info2() {
             <LinkedIn />
           </a>
         </Col>
-        <Col>
+        <Col >
           <a
             className=" icon logo-footer"
             href="mailto://jpw.jsdev@gmail.com"
