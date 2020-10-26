@@ -136,7 +136,7 @@ export default function Info2() {
           <Col className="col-1 colon">:</Col>
           <Col className="col-8 desc_object" id="bb">
             <span className="">
-              ["Sales Force Certified Adminitrator", "ID=21319067", "Certified
+              ["Sales Force Certified Administrator", "ID=21319067", "Certified
               on 7/2020", "
               <a href="https://trailblazer.me/id/jwilkinsondev">
                 trailblazer.me
