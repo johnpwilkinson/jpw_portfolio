@@ -40,7 +40,7 @@ export default function Info2() {
             </span>
           </div>
           <span className="code tt">
-            "A Passionate FullStack Developer, BlockChain Enthusiast, Ethereum
+            "A Passionate FullStack Developer, BlockChain && Bitcoin Enthusiast, Ethereum
             Geek and SalesForce ecoSystem Builder. I am a life long learner,
             constantly curious, and infinitely coachable."
           </span>
