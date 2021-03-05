@@ -21,7 +21,7 @@ export default function Appbar() {
           <Intent to="/test"><span className="pdf">test</span></Intent>
         </li> */}
         <li className="nav-item mx-4">
-          <a href="https://drive.google.com/file/d/16VkI3owdsUCtPs9IVH7vtQcGInkynr5m/view?usp=sharing" className="nav-link" ><span className="pdf"><PDF />Resume</span></a>
+          <a href="https://drive.google.com/file/d/16VkI3owdsUCtPs9IVH7vtQcGInkynr5m/view?usp=sharing" className="nav-link" target="_blank" rel="noopener noreferrer" ><span className="pdf"><PDF />Resume</span></a>
         </li>
         <li className="nav-item mx-4">
         <img src="https://drm--c.na114.content.force.com/servlet/servlet.ImageServer?id=0153k00000AH6hb&oid=00DF0000000gZsu&lastMod=1571903578000" className="sf"></img>

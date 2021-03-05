@@ -70,7 +70,7 @@ export default function Info2() {
           <Row>
             <Col className="col-11 ">
               <span className="code tt">
-                ["GitCoin Kernel Block2 Security Fellowship", Full Stack Software Engineering @ Kenzie Academy / Butler
+                ["GitCoin Kernel Block2 Security Fellowship", "Full Stack Software Engineering @ Kenzie Academy / Butler
                 University", "Sales Force Admin Course @ PepUp Tech", "A.S. in
                 Accounting @ IvyTech"]
               </span>
