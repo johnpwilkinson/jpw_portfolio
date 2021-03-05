@@ -54,7 +54,7 @@ export default function Info2() {
             </span>
           </div>
           <span className="code tt">
-            ["Software Engineering Coach / TA @ Kenzie Academy", "Student
+            ["Software Engineering Facilitator @ Kenzie Academy", "Student
             Committee Member @ Kenzie Academy", "Owner @ HealUrSelf LLC", "Sales
             @ Wireless and Technology"]
           </span>
@@ -70,7 +70,7 @@ export default function Info2() {
           <Row>
             <Col className="col-11 ">
               <span className="code tt">
-                ["Full Stack Software Engineering @ Kenzie Academy / Butler
+                ["GitCoin Kernel Block2 Security Fellowship", Full Stack Software Engineering @ Kenzie Academy / Butler
                 University", "Sales Force Admin Course @ PepUp Tech", "A.S. in
                 Accounting @ IvyTech"]
               </span>
