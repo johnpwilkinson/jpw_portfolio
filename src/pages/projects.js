@@ -1,10 +1,11 @@
 import React from "react"
 import "../style.css"
-import Appbar from "../components/appbar"
+import Appbar from "../components/Appbar"
 import { graphql } from "gatsby"
-import Card from "../components/card"
+import Card from "../components/Card"
 import { Helmet } from "react-helmet"
-import Footer from '../components/footer'
+import Footer from "../components/Footer"
+
 function Projects({ data }) {
   const projectList = data.allProjectsYaml.edges
 
@@ -22,13 +23,15 @@ function Projects({ data }) {
               cardTitle={node.title}
               cardSubtitle={node.subtitle}
               link={node.link}
+              url={node.url}
               key={node.id}
             />
           )
         })}
       </div>
-      <div className="fixed-bottom"><Footer /></div>
-      
+      <div className="fixed-bottom">
+        <Footer />
+      </div>
     </div>
   )
 }
@@ -43,6 +46,7 @@ export const query = graphql`
           title
           subtitle
           link
+          url
           id
         }
       }

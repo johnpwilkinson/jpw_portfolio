@@ -1,15 +1,14 @@
 import React from "react"
 import "../style.css"
-import Appbar from "../components/appbar"
-import Info2 from "../components/info2"
+import Appbar from "../components/Appbar"
+import Main from "../components/Main"
 import { Helmet } from "react-helmet"
-import Footer from "../components/footer"
 
-function index() {
+function Index() {
   return (
     <div>
       <Appbar />
-      <Info2 />
+      <Main />
       <Helmet>
         <meta charSet="utf-8" />
         <title>Home | John</title>
@@ -18,4 +17,4 @@ function index() {
   )
 }
 
-export default index
+export default Index

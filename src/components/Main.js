@@ -2,13 +2,9 @@ import React from "react"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
-import KeyValuePair from "./keyValuePair"
-import Footer from "./footer"
+import KeyValuePair from "./KeyValuePair"
+import Footer from "./Footer"
 import {
-  FaTwitter as Twitter,
-  FaGithub as Github,
-  FaEnvelope as Mail,
-  FaLinkedin as LinkedIn,
   FaSalesforce as SalesForce,
   FaJsSquare as JS,
   FaPython as PY,
@@ -17,7 +13,7 @@ import {
   FaDatabase as BE,
 } from "react-icons/fa"
 
-export default function Info2() {
+export default function Main() {
   let blazer =
     '<a href="https://trailblazer.me/id/jwilkinsondev">trailblazer.me</a>'
   return (
@@ -40,8 +36,8 @@ export default function Info2() {
             </span>
           </div>
           <span className="code tt">
-            "A Passionate FullStack Developer, BlockChain && Bitcoin Enthusiast, Ethereum
-            Geek and SalesForce ecoSystem Builder. I am a life long learner,
+            "A passionate FullStack Developer, Blockchain && Bitcoin Enthusiast,
+            Ethereum Geek and smart contractor. I am a life long learner,
             constantly curious, and infinitely coachable."
           </span>
         </div>
@@ -54,9 +50,9 @@ export default function Info2() {
             </span>
           </div>
           <span className="code tt">
-            ["Software Engineering Facilitator @ Kenzie Academy", "Student
-            Committee Member @ Kenzie Academy", "Owner @ HealUrSelf LLC", "Sales
-            @ Wireless and Technology"]
+            ["React Developer && DeFi Researcher @ FutureWonder", "Software
+            Engineering Facilitator @ Kenzie Academy", "Owner @ HealUrSelf LLC",
+            "Sales @ Wireless and Technology"]
           </span>
         </div>
       </Row>
@@ -70,9 +66,11 @@ export default function Info2() {
           <Row>
             <Col className="col-11 ">
               <span className="code tt">
-                ["GitCoin Kernel Block2 Security Fellowship", "Full Stack Software Engineering @ Kenzie Academy / Butler
-                University", "Sales Force Admin Course @ PepUp Tech", "A.S. in
-                Accounting @ IvyTech"]
+                ["GitCoin Kernel Block2 Security Fellowship", "Full Stack
+                Software Engineering @ Kenzie Academy / Butler University",
+                "Sales Force Admin Course @ PepUp Tech", "A.S. in Accounting @
+                IvyTech", "B.S. I.T. / Software Development in Web Languages @
+                Purdue Global"]
               </span>
             </Col>
             <Col className="col-1 "></Col>
@@ -106,7 +104,7 @@ export default function Info2() {
           />
           <KeyValuePair
             logo={<FE />}
-            value={`["HTML", "CSS", "ReactJs", "Styling Libraries: Bootstrap, Material, Gatsby", "Redux"]`}
+            value={`["HTML", "CSS", "ReactJs", "Styling Libraries: Bootstrap, Material, Gatsby", "Redux", "EVM"]`}
           />
           <KeyValuePair
             logo={<BE />}
