@@ -1,6 +1,6 @@
 import React from "react"
 import "../style.css"
-import Appbar from "../components/appbar"
+import Appbar from "../components/Appbar"
 import Main from "../components/Main"
 import { Helmet } from "react-helmet"
 

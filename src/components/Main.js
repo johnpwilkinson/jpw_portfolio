@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import KeyValuePair from "./KeyValuePair"
-import Footer from "./footer"
+import Footer from "./Footer"
 import {
   FaSalesforce as SalesForce,
   FaJsSquare as JS,

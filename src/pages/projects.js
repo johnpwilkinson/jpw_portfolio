@@ -1,10 +1,10 @@
 import React from "react"
 import "../style.css"
-import Appbar from "../components/appbar"
+import Appbar from "../components/Appbar"
 import { graphql } from "gatsby"
-import Card from "../components/card"
+import Card from "../components/Card"
 import { Helmet } from "react-helmet"
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 
 function Projects({ data }) {
   const projectList = data.allProjectsYaml.edges
